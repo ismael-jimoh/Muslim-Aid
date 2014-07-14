@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.akoredenitan.muslimaid"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Muslim 360</name>
+
+    <description>
+        An App with useful tools for Muslims including the Qu'ran(Text and Audio), Qibla Compass, Prayer Times and Hadith. 
+    </description>
+
+    <author href="" email="ismael.srcyber@gmail.com">
+        Ismael Olusola Jimoh
+    </author>
+	
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+
+	<preference name="phonegap-version" value="3.3.0" />
+	<preference name="fullscreen" value="false" />
+	<preference name="LoadUrlTimeoutValue" value="10000"/>
+	<preference name="LoadingDialog" value="Please wait, the app is loading"/>
+	<preference name="AllowInlineMediaPlayback" value="true"/>
+	<preference name="SplashScreenDelay" value="7000"/>
+	
+	<gap:plugin name="org.apache.cordova.file" />
+	<gap:plugin name="org.apache.cordova.file-transfer" />
+	<gap:plugin name="org.apache.cordova.network-information" />
+	<gap:plugin name="org.apache.cordova.media" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />	
+	<gap:plugin name="org.apache.cordova.dialogs" />
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	
+	<access origin="*" />
+	
+</widget>
