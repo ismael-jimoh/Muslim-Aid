@@ -14,6 +14,7 @@
 				var arabicQuran = document.getElementById("quranArabic");
 				arabicQuran.style.display='block'
 				
+				window.plugins.ChildBrowser.showWebPage('arabic-quran-a.pdf',{ showLocationBar: false });
 				/*var url='arabic-quran-a.pdf';
 				var aElem = document.createElement("a");
 				
@@ -36,8 +37,8 @@
 		</div>
 		<div id="quranArabic" >
 			<p>This Div will Contain the Qu'ran in both Arabic</p>
-			<object data='arabic-quran-a.pdf' type='application/pdf'>
-			</object>
+			<!--<object data='arabic-quran-a.pdf' type='application/pdf'>
+			</object>-->
 		</div>
 		<div id="quranEnglish">
 			<p>This Div will Contain the Qu'ran in both English</p>
